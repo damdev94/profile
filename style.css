@@ -1,0 +1,92 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+body{
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(99, 88, 110);
+  background-color: bisque;
+  line-height: normal;
+}
+
+.title-name {
+  color: rgb(31, 31, 130);
+}
+
+.title-follow {
+  color: rgb(88, 184, 152);
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(73, 73, 162);
+}
+
+.link:hover {
+  color: black;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+  text-align: center;
+}
+
+button {
+  height: 40px;
+  padding: 10px;
+  background-color: rgb(73, 73, 162);
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: black;
+}
+
+.link-wagon{
+  color: white;
+}
+
+.link-wagon:hover{
+  color: white;
+}
+
+ul{
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.fa-brands{
+  font-size: 50px;
+  transition: transform 0.3s;
+}
+
+.fa-brands:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
